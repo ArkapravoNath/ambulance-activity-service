@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.gok.medicalpractitioners"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "microservice",
+    "baseName": "ambulanceactivityservice",
+    "packageName": "com.gok.medicalpractitioners",
+    "packageFolder": "com/gok/medicalpractitioners",
+    "serverPort": "8034",
+    "authenticationType": "oauth2",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTdlY2ZjMDUyOTUwMDIxZDE3MGQyMGZlZTNjYmZiMjZjMjJiMzQ2OWE4NmMzNWEwNWI2MjgwNmNjZjBmMTRiOGQwZjYzYWJiZDNkOWRmMTQ0ZDBhNzEzYmIwZTJiNDE5ZGY2MWRiYzgwNTFhMTgzM2EwYjI4ZTZjNjBkY2VhYWU=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1598454293170,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "generator-jhipster-entity-audit": {
+    "auditFramework": "custom",
+    "auditPage": true,
+    "lastLiquibaseTimestamp": 1598455090000
+  }
+}
